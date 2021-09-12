@@ -71,7 +71,7 @@ PORT
 
 	rom_in_ram : in std_logic;
 
-	atari800mode : in std_logic := '0';
+   atari800mode : in std_logic := '1';  -- ML Change from '0' to '1'
 	
 	cart_select : in std_logic_vector(5 downto 0);
 	
