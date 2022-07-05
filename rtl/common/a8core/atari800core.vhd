@@ -197,7 +197,7 @@ ENTITY atari800core IS
 		HALT : in std_logic;
 		freezer_enable: in std_logic;
 		freezer_activate: in std_logic;
-		ATARI800MODE : in std_logic := '0';
+        ATARI800MODE : in std_logic := '1'; -- ML Change from '0' to '1'
 
 		-- debugging
 		freezer_state_out: out std_logic_vector(2 downto 0);
